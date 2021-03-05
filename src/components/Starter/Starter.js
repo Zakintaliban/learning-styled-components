@@ -17,7 +17,7 @@ const StyledButton = styled.button`
   margin: 10px;
   padding: 0px;
   :hover {
-    box-shadow: 2px 2px 0px 2px #222;
+    box-shadow: 2px 2px #222;
     text-align: center;
     transition: 0.2s;
     border: solid #222;
