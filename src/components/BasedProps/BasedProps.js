@@ -11,6 +11,11 @@ const hey = (e) => {
   );
 };
 
+const no = (e) => {
+  e.preventDefault();
+  alert("you can't just copy-paste it, write it lah")
+}
+
 const StyledPropsButton = styled.button`
   text-align: center;
   background-color: ${(props) =>
@@ -86,6 +91,7 @@ const BasedProps = () => {
       <img
         style={{ height: "600px", borderRadius: "24px" }}
         src={BasedPropsImg}
+        onDragEnd={no}
         alt="two"
       />
     </Wrapper>
