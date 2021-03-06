@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import Starter from "./components/Starter/Starter";
+import BasedProps from "./components/BasedProps/BasedProps";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -14,6 +15,7 @@ function App() {
     <Container>
       <Header />
       <Starter />
+      <BasedProps />
     </Container>
   );
 }
