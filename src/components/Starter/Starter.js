@@ -1,7 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import Starter from "./starter.svg";
+
+const no = (e) => {
+  e.preventDefault();
+  alert("you can't just copy-paste it, write it lah")
+}
+
 // Styled component named StyledButton
+
 const StyledButton = styled.button`
   text-align: center;
   background-color: #000;
@@ -69,6 +76,7 @@ const Header = () => {
       <Desc>this is a starter</Desc>
       <StyledButton> Login </StyledButton>
       <img
+        onDragEnd={no}
         style={{ height: "600px", borderRadius: "24px" }}
         src={Starter}
         alt="one"
