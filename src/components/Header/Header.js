@@ -6,22 +6,28 @@ const Wrapper = styled.div`
   background-color: #222;
   height: 100px;
   width: 100%;
-  margin: auto 10px;
-  font-size: 32px;
   color: white;
   font-family: "Fira Code", monospace;
+  @media screen and (max-width: 425px) {
+    font-size: 24px;
+    width: 100%;
+  }
 `;
 
-const Heading = styled.h2`
+const Heading = styled.h1`
   text-align: center;
-  margin: auto 0px;
+  margin: 20px auto;
   text-shadow: 5px 5px #000;
   cursor: default;
   transition: 0.2s;
+  font-size: 32px;
   :hover {
     cursor: default;
     text-shadow: 0px 0px #000;
     transition: 0.2s;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 24px;
   }
 `;
 
