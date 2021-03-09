@@ -4,16 +4,16 @@ import Starter from "./starter.svg";
 
 const no = (e) => {
   e.preventDefault();
-  alert("you can't just copy-paste it, write it lah")
-}
+  alert("you can't just copy-paste it, write it lah");
+};
 
 // Styled component named StyledButton
 
 const StyledButton = styled.button`
   text-align: center;
-  background-color: #000;
+  background-color: #44ee77;
   font-size: 30px;
-  color: white;
+  color: #fff;
   border-radius: 10px;
   border: 0px;
   font-family: "Fira Code", monospace;
