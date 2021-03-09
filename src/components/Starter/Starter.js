@@ -60,6 +60,9 @@ const Wrapper = styled.div`
     height: 800px;
     transition: 0.2s;
   }
+  @media screen and (max-width: 425px) {
+    width: 100%;
+  }
 `;
 
 const Desc = styled.h1`
