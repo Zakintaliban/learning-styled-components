@@ -68,6 +68,10 @@ const Wrapper = styled.div`
     height: 800px;
     transition: 0.2s;
   }
+  @media screen and (max-width: 425px) {
+    font-size: 24px;
+    width: 100%;
+  }
 `;
 
 const Desc = styled.h1`
@@ -76,6 +80,13 @@ const Desc = styled.h1`
   color: #fff;
   text-align: center;
   margin: 0px;
+`;
+
+const Gambar = styled.img`
+  @media screen and (max-width: 320px) {
+    border-radius: 24px;
+    width: 100%;
+  }
 `;
 
 const BasedProps = () => {
@@ -88,12 +99,7 @@ const BasedProps = () => {
       <StyledPropsButton bg="#000" type="button" onClick={hey}>
         B
       </StyledPropsButton>
-      <img
-        style={{ height: "600px", borderRadius: "24px" }}
-        src={BasedPropsImg}
-        onDragEnd={no}
-        alt="two"
-      />
+      <Gambar src={BasedPropsImg} onDragEnd={no} alt="two" />
     </Wrapper>
   );
 };
