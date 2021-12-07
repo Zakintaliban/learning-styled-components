@@ -12,7 +12,7 @@ const no = (e) => {
 const StyledButton = styled.button`
   text-align: center;
   background-color: #44ee77;
-  font-size: 30px;
+  font-size: 1rem;
   color: #fff;
   border-radius: 10px;
   border: 0px;
@@ -61,6 +61,7 @@ const Wrapper = styled.div`
     transition: 0.2s;
   }
   @media screen and (max-width: 425px) {
+    font-size: 24px;
     width: 100%;
   }
 `;
