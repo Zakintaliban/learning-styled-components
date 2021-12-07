@@ -20,7 +20,7 @@ const StyledPropsButton = styled.button`
   text-align: center;
   background-color: ${(props) =>
     props.bg === "#FB475E" ? "#FB475E" : "#FFB001"};
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #000;
   border-radius: 10px;
   border: 0px;
