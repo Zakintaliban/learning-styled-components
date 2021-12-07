@@ -74,13 +74,13 @@ function Extending() {
 
   // A new component based on Button, but with some override styles
   const TomatoButton = styled(Button)`
-    color: #ffb001;
+    background-color: #fb475e;
   `;
   return (
     <Wrapper>
       <Desc>We using Extend</Desc>
-      <Button>Normal Button</Button>
-      <TomatoButton>Tomato Button</TomatoButton>
+      <Button>First code</Button>
+      <TomatoButton>extended code</TomatoButton>
     </Wrapper>
   );
 }
