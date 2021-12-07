@@ -20,7 +20,7 @@ const StyledPropsButton = styled.button`
   text-align: center;
   background-color: ${(props) =>
     props.bg === "#FB475E" ? "#FB475E" : "#FFB001"};
-  font-size: 30px;
+  font-size: 1rem;
   color: #000;
   border-radius: 10px;
   border: 0px;
@@ -83,9 +83,9 @@ const Desc = styled.h1`
 `;
 
 const Gambar = styled.img`
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) {
     border-radius: 24px;
-    width: 100%;
+    height: 600px;
   }
 `;
 
