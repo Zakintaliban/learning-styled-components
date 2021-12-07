@@ -12,7 +12,7 @@ const no = (e) => {
 const StyledButton = styled.button`
   text-align: center;
   background-color: #44ee77;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
   border-radius: 10px;
   border: 0px;
